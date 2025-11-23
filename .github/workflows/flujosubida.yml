@@ -58,3 +58,8 @@ jobs:
         run: |
           echo "El usuario es: ${{env.user}}"
           echo "La contraseña es: ${{env.password}}"
+
+      # Mi Variable abierta
+      - name: variable abierta
+        run: |
+          echo imprimir variable abierta ${{vars.VERSION_DE_PROYECTO}}
