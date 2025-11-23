@@ -43,3 +43,8 @@ jobs:
           echo "Mi nombre es ${{env.nombres}}"
           echo "Mi apellido es ${{env.apellidos}}"
           echo "Mi edad ${{env.edad}}"
+
+      # Datos Generales
+      - name: Datos Generales
+        run: |
+          echo Carrera de Ingenieria de Sistemas.
