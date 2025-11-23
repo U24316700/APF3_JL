@@ -62,4 +62,4 @@ jobs:
       # Mi Variable abierta
       - name: variable abierta
         run: |
-          echo imprimir variable abierta ${{vars.VERSION_DE_PROYECTO}}
+          echo La version de mi Proyecto es: ${{vars.VERSION_DE_PROYECTO}}
